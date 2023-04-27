@@ -6,7 +6,14 @@ namespace Inheritance_Rowland_Ethan
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            FPS myFPS = new FPS("E", "Zombcube");
+
+            Console.WriteLine(myFPS.Desribe());
+            myFPS.PlayGame();
+
+            FPS csGo = newFPS("M", "CS:GO");
+            Console.WriteLine(csGo.Describe());
+            csGo.PlayGame();
         }
     }
 }
